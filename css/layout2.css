@@ -204,6 +204,18 @@
 	font-weight: bold;
 	cursor: pointer;
 }
+.product-container {
+	width: 80%;
+	max-width: 800px;
+	margin: auto;
+	margin-top: 1000px;
+	margin-bottom: 50px;
+}
+.product-container div {
+	float: left;
+	width: 25%;
+	text-align: center;
+}
 
 @media screen and (max-width: 1200px) {
 	.main-title {
@@ -211,6 +223,9 @@
 	}
 	.sales-ment {
 		font-size: 15px;
+	}
+	.product-container div {
+		width: 50%;
 	}
 }
 @media screen and (max-width: 768px) {
@@ -220,12 +235,7 @@
 	.sales-ment {
 		font-size: 10px;
 	}
+	.product-container div {
+		width: 100%;
+	}
 }
-@media screen and (max-width: 576px) {
-	.main-title {
-		font-size: 17px;
-	}
-	.sales-ment {
-		font-size: 7px;
-	}
-} ;
